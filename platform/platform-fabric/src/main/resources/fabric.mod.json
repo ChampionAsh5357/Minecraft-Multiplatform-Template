@@ -1,0 +1,28 @@
+{
+    "schemaVersion": 1,
+    "id": "${base_id}",
+    "name": "${base_name}",
+    "version": "${base_version}",
+    "description": "${base_description}",
+    "authors": [
+        "${base_author}"
+    ],
+
+    "license": "${license_id}",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "${base_group}.${base_id}.${platform_id}.${fabric_id}.FabricModInstance"
+        ],
+        "client": [
+            "${base_group}.${base_id}.${platform_id}.${fabric_id}.client.FabricClientModInstance"
+        ]
+    },
+
+    "depends": {
+        "fabricloader": ">=${fabric_loader}",
+        "fabric": ">=${fabric_api}",
+        "minecraft": "~${minecraft_current}",
+        "java": "${java}"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "pack": {
+        "description": "${base_name} Resources",
+        "pack_format": ${minecraft_pack_resources},
+        "forge:resource_pack_format": ${minecraft_pack_resources},
+        "forge:data_pack_format": ${minecraft_pack_data}
+    }
+}

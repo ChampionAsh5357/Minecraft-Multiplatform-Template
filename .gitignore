@@ -1,0 +1,21 @@
+# Eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# Idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# VSCode
+.vscode
+
+# Gradle
+build
+.gradle
