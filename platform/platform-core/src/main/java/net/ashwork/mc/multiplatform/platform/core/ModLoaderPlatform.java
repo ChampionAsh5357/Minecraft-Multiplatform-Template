@@ -5,6 +5,7 @@
 
 package net.ashwork.mc.multiplatform.platform.core;
 
+import net.ashwork.mc.multiplatform.platform.core.manager.DataPlatformManager;
 import net.ashwork.mc.multiplatform.platform.core.manager.RegistryPlatformManager;
 import org.jetbrains.annotations.ApiStatus;
 
@@ -39,6 +40,13 @@ public interface ModLoaderPlatform {
      * @return the platform manager for registries
      */
     RegistryPlatformManager registries();
+
+    /**
+     * Gets the platform manager for object data.
+     *
+     * @return the platform manager for object data
+     */
+    DataPlatformManager data();
 
     /**
      * A reference holder to store the currently loaded platform on

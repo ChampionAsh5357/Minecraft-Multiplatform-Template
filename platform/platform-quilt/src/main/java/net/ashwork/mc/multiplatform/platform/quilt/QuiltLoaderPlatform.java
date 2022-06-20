@@ -6,6 +6,8 @@
 package net.ashwork.mc.multiplatform.platform.quilt;
 
 import net.ashwork.mc.multiplatform.platform.core.ModLoaderPlatform;
+import net.ashwork.mc.multiplatform.platform.core.manager.DataPlatformManager;
+import net.ashwork.mc.multiplatform.platform.core.manager.MinecraftDataPlatformManager;
 import net.ashwork.mc.multiplatform.platform.core.manager.MinecraftRegistryPlatformManager;
 import net.ashwork.mc.multiplatform.platform.core.manager.RegistryPlatformManager;
 import org.quiltmc.loader.api.ModContainer;
@@ -19,6 +21,7 @@ public final class QuiltLoaderPlatform implements ModLoaderPlatform {
 
     private final String modId;
     private final RegistryPlatformManager registries;
+    private final DataPlatformManager data;
 
     /**
      * Default constructor.
@@ -28,6 +31,7 @@ public final class QuiltLoaderPlatform implements ModLoaderPlatform {
     public QuiltLoaderPlatform(final ModContainer mod) {
         this.modId = mod.metadata().id();
         this.registries = new MinecraftRegistryPlatformManager();
+        this.data = new MinecraftDataPlatformManager();
     }
 
     @Override
@@ -38,5 +42,10 @@ public final class QuiltLoaderPlatform implements ModLoaderPlatform {
     @Override
     public RegistryPlatformManager registries() {
         return this.registries;
+    }
+
+    @Override
+    public DataPlatformManager data() {
+        return this.data;
     }
 }

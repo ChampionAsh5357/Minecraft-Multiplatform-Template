@@ -38,6 +38,10 @@ subprojects {
             withJavadocJar()
         }
 
+        dependencies {
+            testCompileOnly(libs.annotations)
+        }
+
         tasks.compileJava {
             options.encoding = rootProject.extra["file.encoding"] as String
         }

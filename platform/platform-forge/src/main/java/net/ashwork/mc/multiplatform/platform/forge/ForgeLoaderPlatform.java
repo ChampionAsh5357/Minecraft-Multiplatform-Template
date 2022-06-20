@@ -7,7 +7,9 @@ package net.ashwork.mc.multiplatform.platform.forge;
 
 import net.ashwork.mc.multiplatform.ModInstance;
 import net.ashwork.mc.multiplatform.platform.core.ModLoaderPlatform;
+import net.ashwork.mc.multiplatform.platform.core.manager.DataPlatformManager;
 import net.ashwork.mc.multiplatform.platform.core.manager.RegistryPlatformManager;
+import net.ashwork.mc.multiplatform.platform.forge.manager.ForgeDataPlatformManager;
 import net.ashwork.mc.multiplatform.platform.forge.manager.ForgeRegistryPlatformManager;
 import net.minecraftforge.eventbus.api.IEventBus;
 
@@ -19,6 +21,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 public final class ForgeLoaderPlatform implements ModLoaderPlatform {
 
     private final RegistryPlatformManager registries;
+    private final DataPlatformManager data;
 
     /**
      * Default constructor.
@@ -27,6 +30,7 @@ public final class ForgeLoaderPlatform implements ModLoaderPlatform {
      */
     public ForgeLoaderPlatform(final IEventBus modBus) {
         this.registries = new ForgeRegistryPlatformManager(modBus);
+        this.data = new ForgeDataPlatformManager();
     }
 
     @Override
@@ -37,5 +41,10 @@ public final class ForgeLoaderPlatform implements ModLoaderPlatform {
     @Override
     public RegistryPlatformManager registries() {
         return this.registries;
+    }
+
+    @Override
+    public DataPlatformManager data() {
+        return this.data;
     }
 }

@@ -4,11 +4,20 @@ import net.ashwork.mc.multiplatform.platform.core.util.ObjectReference;
 import net.minecraft.resources.ResourceKey;
 import net.minecraftforge.registries.RegistryObject;
 
-//TODO: Document
+/**
+ * An implementation of {@link ObjectReference} for Forge {@link RegistryObject}s.
+ *
+ * @see ObjectReference
+ */
 public final class RegistryObjectDelegate<T> implements ObjectReference<T> {
 
     private final RegistryObject<T> object;
 
+    /**
+     * Default constructor
+     *
+     * @param object a {@link RegistryObject}
+     */
     public RegistryObjectDelegate(final RegistryObject<T> object) {
         this.object = object;
     }
