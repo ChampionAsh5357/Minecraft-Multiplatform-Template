@@ -35,7 +35,7 @@ public interface RegistryPlatformManager {
      * @return a writable registry to register objects to
      * @param <T> the type of the objects in the registry
      */
-    <T> WritableRegistry<T> register(final ResourceKey<? extends Registry<T>> registryKey);
+    <T> WritableRegistry<T> registrar(final ResourceKey<? extends Registry<T>> registryKey);
 
     /**
      * A registrar used to register objects to a registry.

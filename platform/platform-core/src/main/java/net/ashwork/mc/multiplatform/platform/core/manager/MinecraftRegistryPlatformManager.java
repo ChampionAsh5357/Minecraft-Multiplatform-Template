@@ -29,7 +29,7 @@ public final class MinecraftRegistryPlatformManager implements RegistryPlatformM
     }
 
     @Override
-    public <T> WritableRegistry<T> register(final ResourceKey<? extends Registry<T>> registryKey) {
+    public <T> WritableRegistry<T> registrar(final ResourceKey<? extends Registry<T>> registryKey) {
         @SuppressWarnings("unchecked")
         final WritableRegistry<T> register = (WritableRegistry<T>) this.registers.computeIfAbsent(registryKey, key -> {
             @SuppressWarnings("unchecked")
