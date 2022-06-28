@@ -7,8 +7,8 @@ package net.ashwork.mc.multiplatform.platform.fabric;
 
 import net.ashwork.mc.multiplatform.ModInstance;
 import net.ashwork.mc.multiplatform.platform.core.ModLoaderPlatform;
-import net.ashwork.mc.multiplatform.platform.core.manager.DataPlatformManager;
-import net.ashwork.mc.multiplatform.platform.core.manager.MinecraftDataPlatformManager;
+import net.ashwork.mc.multiplatform.platform.core.manager.PropertyPlatformManager;
+import net.ashwork.mc.multiplatform.platform.core.manager.MinecraftPropertyPlatformManager;
 import net.ashwork.mc.multiplatform.platform.core.manager.MinecraftRegistryPlatformManager;
 import net.ashwork.mc.multiplatform.platform.core.manager.RegistryPlatformManager;
 
@@ -20,14 +20,14 @@ import net.ashwork.mc.multiplatform.platform.core.manager.RegistryPlatformManage
 public final class FabricLoaderPlatform implements ModLoaderPlatform {
 
     private final RegistryPlatformManager registries;
-    private final DataPlatformManager data;
+    private final PropertyPlatformManager data;
 
     /**
      * Default constructor.
      */
     public FabricLoaderPlatform() {
         this.registries = new MinecraftRegistryPlatformManager();
-        this.data = new MinecraftDataPlatformManager();
+        this.data = new MinecraftPropertyPlatformManager();
     }
 
     @Override
@@ -41,7 +41,7 @@ public final class FabricLoaderPlatform implements ModLoaderPlatform {
     }
 
     @Override
-    public DataPlatformManager data() {
+    public PropertyPlatformManager data() {
         return this.data;
     }
 }

@@ -1,7 +1,7 @@
-package net.ashwork.mc.multiplatform.platform.forge.util;
+package net.ashwork.mc.multiplatform.platform.forge.property;
 
-import net.ashwork.mc.multiplatform.platform.core.util.FoodPropertiesBuilder;
-import net.ashwork.mc.multiplatform.platform.core.util.MinecraftFoodPropertiesBuilder;
+import net.ashwork.mc.multiplatform.platform.core.property.FoodPropertiesBuilder;
+import net.ashwork.mc.multiplatform.platform.core.property.MinecraftFoodPropertiesBuilder;
 import net.minecraft.world.effect.MobEffectInstance;
 
 import java.util.function.Supplier;

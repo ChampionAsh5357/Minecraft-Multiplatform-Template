@@ -1,5 +1,6 @@
-package net.ashwork.mc.multiplatform.platform.core.util;
+package net.ashwork.mc.multiplatform.platform.core.property;
 
+import net.ashwork.mc.multiplatform.platform.core.manager.PropertyPlatformManager;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.food.FoodProperties;
 
@@ -9,6 +10,15 @@ import java.util.function.Supplier;
  * A builder for constructing food properties.
  */
 public interface FoodPropertiesBuilder {
+
+    /**
+     * Creates a builder for food properties.
+     *
+     * @return a builder for food properties
+     */
+    static FoodPropertiesBuilder create() {
+        return PropertyPlatformManager.get().food();
+    }
 
     /**
      * Sets the number of ticks the food adds.

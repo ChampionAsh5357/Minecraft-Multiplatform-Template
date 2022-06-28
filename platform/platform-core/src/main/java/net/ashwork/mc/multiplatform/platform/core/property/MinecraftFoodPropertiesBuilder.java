@@ -1,4 +1,4 @@
-package net.ashwork.mc.multiplatform.platform.core.util;
+package net.ashwork.mc.multiplatform.platform.core.property;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.food.FoodProperties;
