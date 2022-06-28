@@ -7,8 +7,6 @@ package net.ashwork.mc.multiplatform.platform.core.registry;
 
 import com.google.common.base.Suppliers;
 import net.ashwork.mc.multiplatform.platform.core.ModLoaderPlatform;
-import net.ashwork.mc.multiplatform.platform.core.manager.RegistryPlatformManager;
-import net.ashwork.mc.multiplatform.platform.core.util.ObjectReference;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;

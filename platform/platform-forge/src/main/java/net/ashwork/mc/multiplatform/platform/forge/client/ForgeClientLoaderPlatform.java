@@ -6,8 +6,8 @@
 package net.ashwork.mc.multiplatform.platform.forge.client;
 
 import net.ashwork.mc.multiplatform.platform.core.client.ClientModLoaderPlatform;
-import net.ashwork.mc.multiplatform.platform.core.client.manager.ParticlePlatformManager;
-import net.ashwork.mc.multiplatform.platform.forge.client.manager.ForgeParticlePlatformManager;
+import net.ashwork.mc.multiplatform.platform.core.client.particle.ParticlePlatformManager;
+import net.ashwork.mc.multiplatform.platform.forge.client.particle.ForgeParticlePlatformManager;
 import net.minecraftforge.eventbus.api.IEventBus;
 
 /**

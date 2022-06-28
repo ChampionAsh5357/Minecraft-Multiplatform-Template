@@ -5,8 +5,8 @@
 
 package net.ashwork.mc.multiplatform.platform.core;
 
-import net.ashwork.mc.multiplatform.platform.core.manager.PropertyPlatformManager;
-import net.ashwork.mc.multiplatform.platform.core.manager.RegistryPlatformManager;
+import net.ashwork.mc.multiplatform.platform.core.property.PropertyPlatformManager;
+import net.ashwork.mc.multiplatform.platform.core.registry.RegistryPlatformManager;
 import org.jetbrains.annotations.ApiStatus;
 
 import java.util.Objects;

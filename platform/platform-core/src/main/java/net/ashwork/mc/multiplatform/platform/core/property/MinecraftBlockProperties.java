@@ -5,7 +5,7 @@
 
 package net.ashwork.mc.multiplatform.platform.core.property;
 
-import net.ashwork.mc.multiplatform.platform.core.util.ObjectReference;
+import net.ashwork.mc.multiplatform.platform.core.registry.ObjectReference;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;

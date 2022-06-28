@@ -3,11 +3,9 @@
  * SPDX-License-Identifier: CC0-1.0
  */
 
-package net.ashwork.mc.multiplatform.platform.core.manager;
+package net.ashwork.mc.multiplatform.platform.core.registry;
 
 import com.mojang.serialization.Lifecycle;
-import net.ashwork.mc.multiplatform.platform.core.util.HolderObjectReference;
-import net.ashwork.mc.multiplatform.platform.core.util.ObjectReference;
 import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;
 import net.minecraft.data.BuiltinRegistries;

@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: CC0-1.0
  */
 
-package net.ashwork.mc.multiplatform.platform.forge.client.manager;
+package net.ashwork.mc.multiplatform.platform.forge.client.particle;
 
-import net.ashwork.mc.multiplatform.platform.core.client.manager.ParticlePlatformManager;
+import net.ashwork.mc.multiplatform.platform.core.client.particle.ParticlePlatformManager;
 import net.ashwork.mc.multiplatform.platform.core.util.NotNullFunction;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.particle.ParticleEngine;

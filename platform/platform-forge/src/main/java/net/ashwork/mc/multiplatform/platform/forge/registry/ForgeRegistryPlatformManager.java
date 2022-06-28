@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: CC0-1.0
  */
 
-package net.ashwork.mc.multiplatform.platform.forge.manager;
+package net.ashwork.mc.multiplatform.platform.forge.registry;
 
 import net.ashwork.mc.multiplatform.platform.core.ModLoaderPlatform;
-import net.ashwork.mc.multiplatform.platform.core.manager.RegistryPlatformManager;
-import net.ashwork.mc.multiplatform.platform.core.util.ObjectReference;
-import net.ashwork.mc.multiplatform.platform.forge.util.RegistryObjectDelegate;
+import net.ashwork.mc.multiplatform.platform.core.registry.RegistryPlatformManager;
+import net.ashwork.mc.multiplatform.platform.core.registry.ObjectReference;
+import net.ashwork.mc.multiplatform.platform.forge.registry.RegistryObjectDelegate;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;

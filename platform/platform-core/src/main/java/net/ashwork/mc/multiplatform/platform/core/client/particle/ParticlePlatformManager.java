@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: CC0-1.0
  */
 
-package net.ashwork.mc.multiplatform.platform.core.client.manager;
+package net.ashwork.mc.multiplatform.platform.core.client.particle;
 
 import net.ashwork.mc.multiplatform.platform.core.client.ClientModLoaderPlatform;
 import net.ashwork.mc.multiplatform.platform.core.util.NotNullFunction;

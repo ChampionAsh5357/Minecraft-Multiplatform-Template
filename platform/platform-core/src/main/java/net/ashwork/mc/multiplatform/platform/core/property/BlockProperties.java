@@ -5,8 +5,7 @@
 
 package net.ashwork.mc.multiplatform.platform.core.property;
 
-import net.ashwork.mc.multiplatform.platform.core.manager.PropertyPlatformManager;
-import net.ashwork.mc.multiplatform.platform.core.util.ObjectReference;
+import net.ashwork.mc.multiplatform.platform.core.registry.ObjectReference;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.RandomSource;

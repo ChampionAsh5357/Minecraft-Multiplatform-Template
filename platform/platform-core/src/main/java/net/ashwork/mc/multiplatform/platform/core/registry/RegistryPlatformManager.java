@@ -3,10 +3,9 @@
  * SPDX-License-Identifier: CC0-1.0
  */
 
-package net.ashwork.mc.multiplatform.platform.core.manager;
+package net.ashwork.mc.multiplatform.platform.core.registry;
 
 import net.ashwork.mc.multiplatform.platform.core.ModLoaderPlatform;
-import net.ashwork.mc.multiplatform.platform.core.util.ObjectReference;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;

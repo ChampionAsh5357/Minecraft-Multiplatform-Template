@@ -6,8 +6,8 @@
 package net.ashwork.mc.multiplatform.platform.fabric.client;
 
 import net.ashwork.mc.multiplatform.platform.core.client.ClientModLoaderPlatform;
-import net.ashwork.mc.multiplatform.platform.core.client.manager.ParticlePlatformManager;
-import net.ashwork.mc.multiplatform.platform.fabric.client.manager.FabricParticlePlatformManager;
+import net.ashwork.mc.multiplatform.platform.core.client.particle.ParticlePlatformManager;
+import net.ashwork.mc.multiplatform.platform.fabric.client.particle.FabricParticlePlatformManager;
 
 /**
  * An implementation of {@link ClientModLoaderPlatform} for the Fabric Mod Loader.

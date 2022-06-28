@@ -7,10 +7,10 @@ package net.ashwork.mc.multiplatform.platform.fabric;
 
 import net.ashwork.mc.multiplatform.ModInstance;
 import net.ashwork.mc.multiplatform.platform.core.ModLoaderPlatform;
-import net.ashwork.mc.multiplatform.platform.core.manager.PropertyPlatformManager;
-import net.ashwork.mc.multiplatform.platform.core.manager.MinecraftPropertyPlatformManager;
-import net.ashwork.mc.multiplatform.platform.core.manager.MinecraftRegistryPlatformManager;
-import net.ashwork.mc.multiplatform.platform.core.manager.RegistryPlatformManager;
+import net.ashwork.mc.multiplatform.platform.core.property.PropertyPlatformManager;
+import net.ashwork.mc.multiplatform.platform.core.property.MinecraftPropertyPlatformManager;
+import net.ashwork.mc.multiplatform.platform.core.registry.MinecraftRegistryPlatformManager;
+import net.ashwork.mc.multiplatform.platform.core.registry.RegistryPlatformManager;
 
 /**
  * An implementation of {@link ModLoaderPlatform} for the Fabric Mod Loader.

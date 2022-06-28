@@ -7,10 +7,10 @@ package net.ashwork.mc.multiplatform.platform.forge;
 
 import net.ashwork.mc.multiplatform.ModInstance;
 import net.ashwork.mc.multiplatform.platform.core.ModLoaderPlatform;
-import net.ashwork.mc.multiplatform.platform.core.manager.PropertyPlatformManager;
-import net.ashwork.mc.multiplatform.platform.core.manager.RegistryPlatformManager;
-import net.ashwork.mc.multiplatform.platform.forge.manager.ForgePropertyPlatformManager;
-import net.ashwork.mc.multiplatform.platform.forge.manager.ForgeRegistryPlatformManager;
+import net.ashwork.mc.multiplatform.platform.core.property.PropertyPlatformManager;
+import net.ashwork.mc.multiplatform.platform.core.registry.RegistryPlatformManager;
+import net.ashwork.mc.multiplatform.platform.forge.property.ForgePropertyPlatformManager;
+import net.ashwork.mc.multiplatform.platform.forge.registry.ForgeRegistryPlatformManager;
 import net.minecraftforge.eventbus.api.IEventBus;
 
 /**

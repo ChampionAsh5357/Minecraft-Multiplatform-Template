@@ -5,7 +5,7 @@
 
 package net.ashwork.mc.multiplatform.platform.core.client;
 
-import net.ashwork.mc.multiplatform.platform.core.client.manager.ParticlePlatformManager;
+import net.ashwork.mc.multiplatform.platform.core.client.particle.ParticlePlatformManager;
 import org.jetbrains.annotations.ApiStatus;
 
 import java.util.Objects;

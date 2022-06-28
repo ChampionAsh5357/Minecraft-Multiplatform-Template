@@ -3,12 +3,10 @@
  * SPDX-License-Identifier: CC0-1.0
  */
 
-package net.ashwork.mc.multiplatform.platform.core.manager;
+package net.ashwork.mc.multiplatform.platform.core.property;
 
 import net.ashwork.mc.multiplatform.platform.core.ModLoaderPlatform;
-import net.ashwork.mc.multiplatform.platform.core.property.BlockProperties;
-import net.ashwork.mc.multiplatform.platform.core.property.FoodPropertiesBuilder;
-import net.ashwork.mc.multiplatform.platform.core.util.ObjectReference;
+import net.ashwork.mc.multiplatform.platform.core.registry.ObjectReference;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;

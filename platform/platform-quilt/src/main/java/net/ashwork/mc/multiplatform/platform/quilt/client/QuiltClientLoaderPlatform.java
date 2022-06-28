@@ -6,8 +6,8 @@
 package net.ashwork.mc.multiplatform.platform.quilt.client;
 
 import net.ashwork.mc.multiplatform.platform.core.client.ClientModLoaderPlatform;
-import net.ashwork.mc.multiplatform.platform.core.client.manager.ParticlePlatformManager;
-import net.ashwork.mc.multiplatform.platform.quilt.client.manager.QuiltParticlePlatformManager;
+import net.ashwork.mc.multiplatform.platform.core.client.particle.ParticlePlatformManager;
+import net.ashwork.mc.multiplatform.platform.quilt.client.particle.QuiltParticlePlatformManager;
 
 /**
  * An implementation of {@link ClientModLoaderPlatform} for the Quilt Mod Loader.

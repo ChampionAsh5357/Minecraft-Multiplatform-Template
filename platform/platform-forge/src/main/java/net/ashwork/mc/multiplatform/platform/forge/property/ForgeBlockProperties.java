@@ -7,7 +7,7 @@ package net.ashwork.mc.multiplatform.platform.forge.property;
 
 import net.ashwork.mc.multiplatform.platform.core.property.BlockProperties;
 import net.ashwork.mc.multiplatform.platform.core.property.MinecraftBlockProperties;
-import net.ashwork.mc.multiplatform.platform.core.util.ObjectReference;
+import net.ashwork.mc.multiplatform.platform.core.registry.ObjectReference;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;

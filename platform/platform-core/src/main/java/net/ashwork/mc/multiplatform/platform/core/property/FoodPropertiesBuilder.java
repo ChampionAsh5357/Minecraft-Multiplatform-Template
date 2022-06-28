@@ -5,7 +5,6 @@
 
 package net.ashwork.mc.multiplatform.platform.core.property;
 
-import net.ashwork.mc.multiplatform.platform.core.manager.PropertyPlatformManager;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.food.FoodProperties;
 
