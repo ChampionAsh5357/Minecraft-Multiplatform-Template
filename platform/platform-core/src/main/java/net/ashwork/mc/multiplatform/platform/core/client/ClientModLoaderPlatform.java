@@ -5,6 +5,7 @@
 
 package net.ashwork.mc.multiplatform.platform.core.client;
 
+import net.ashwork.mc.multiplatform.platform.core.client.manager.ParticlePlatformManager;
 import org.jetbrains.annotations.ApiStatus;
 
 import java.util.Objects;
@@ -24,6 +25,13 @@ public interface ClientModLoaderPlatform {
     static ClientModLoaderPlatform get() {
         return Reference.get();
     }
+
+    /**
+     * Gets the platform manager for particles.
+     *
+     * @return the platform manager for particles
+     */
+    ParticlePlatformManager particle();
 
     /**
      * A reference holder to store the currently loaded client platform on

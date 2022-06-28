@@ -32,6 +32,6 @@ public final class ForgeModInstance {
 
         // Initialize instances
         ModInstance.create(platform);
-        DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> ForgeClientModInstance::new);
+        DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> new ForgeClientModInstance(modBus));
     }
 }
