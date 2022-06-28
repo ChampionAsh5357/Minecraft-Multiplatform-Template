@@ -45,7 +45,8 @@ tasks.named<Copy>("processResources") {
         "forge_loader_spec",
         "forge_loader_impl",
         "minecraft_current",
-        "minecraft_next"
+        "minecraft_next",
+        "java"
     ).associateWith { rootProject.extra[it.replace("_", ".")] as String }
 
     inputs.properties(props)

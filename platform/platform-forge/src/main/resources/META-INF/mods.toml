@@ -8,6 +8,7 @@ license = "${license_id}"
     displayName = "${base_name}"
     authors = "${base_author}"
     description = "${base_description}"
+    features = { java_version = "${java}" }
 
 [[dependencies.${base_id}]]
     modId = "forge"
