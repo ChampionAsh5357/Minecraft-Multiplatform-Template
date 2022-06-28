@@ -1,6 +1,6 @@
 /*
- * Copyright (c) ChampionAsh5357
- * SPDX-License-Identifier: MIT
+ * Written by ChampionAsh5357
+ * SPDX-License-Identifier: CC0-1.0
  */
 
 package net.ashwork.mc.multiplatform.platform.forge.manager;

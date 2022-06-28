@@ -1,3 +1,8 @@
+/*
+ * Written by ChampionAsh5357
+ * SPDX-License-Identifier: CC0-1.0
+ */
+
 package net.ashwork.mc.multiplatform.platform.core.registry;
 
 import com.google.common.base.Suppliers;
