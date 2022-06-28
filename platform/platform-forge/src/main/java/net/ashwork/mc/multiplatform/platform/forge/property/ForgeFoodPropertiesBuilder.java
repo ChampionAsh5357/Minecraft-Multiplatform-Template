@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) ChampionAsh5357
+ * SPDX-License-Identifier: MIT
+ */
+
 package net.ashwork.mc.multiplatform.platform.forge.property;
 
 import net.ashwork.mc.multiplatform.platform.core.property.FoodPropertiesBuilder;

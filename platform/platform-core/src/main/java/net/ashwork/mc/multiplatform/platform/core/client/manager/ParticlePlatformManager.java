@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) ChampionAsh5357
+ * SPDX-License-Identifier: MIT
+ */
+
 package net.ashwork.mc.multiplatform.platform.core.client.manager;
 
 import net.ashwork.mc.multiplatform.platform.core.client.ClientModLoaderPlatform;
