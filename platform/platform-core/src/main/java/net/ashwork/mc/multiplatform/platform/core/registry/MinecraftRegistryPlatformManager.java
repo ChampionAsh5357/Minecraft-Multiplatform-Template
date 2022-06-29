@@ -17,7 +17,11 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.function.Supplier;
 
-//TODO: Document
+/**
+ * An implementation of {@link RegistryPlatformManager} for Vanilla-based Mod Loaders.
+ *
+ * @see RegistryPlatformManager
+ */
 public final class MinecraftRegistryPlatformManager implements RegistryPlatformManager {
 
     private final Map<ResourceKey<?>, WritableRegistry<?>> registers;
