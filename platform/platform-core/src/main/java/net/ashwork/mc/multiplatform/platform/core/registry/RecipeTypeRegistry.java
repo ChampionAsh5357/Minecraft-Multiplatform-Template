@@ -5,7 +5,6 @@
 
 package net.ashwork.mc.multiplatform.platform.core.registry;
 
-import com.google.common.base.Suppliers;
 import net.ashwork.mc.multiplatform.platform.core.ModLoaderPlatform;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceKey;
@@ -27,16 +26,10 @@ public final class RecipeTypeRegistry {
         throw new AssertionError("Do not initialize " + this.getClass().getSimpleName());
     }
 
-    private static final Supplier<RegistryPlatformManager.WritableRegistry<RecipeType<?>>> REGISTRAR = Suppliers.memoize(() -> RegistryPlatformManager.get().registrar(Registry.RECIPE_TYPE_REGISTRY));
-
     /**
-     * Gets or creates a registrar for {@link RecipeType}s.
-     *
-     * @return a writable registry to register {@link RecipeType}s to
+     * A registrar for for {@link RecipeType}s.
      */
-    public static RegistryPlatformManager.WritableRegistry<RecipeType<?>> registrar() {
-        return REGISTRAR.get();
-    }
+    public static final RegistryPlatformManager.WritableRegistry<RecipeType<?>> REGISTRAR = RegistryPlatformManager.get().registrar(Registry.RECIPE_TYPE_REGISTRY);
 
     /**
      * Registers a {@link RecipeType} and returns a reference to it. The object
@@ -66,7 +59,7 @@ public final class RecipeTypeRegistry {
      * @param <T> the type of the recipe
      */
     public static <T extends Recipe<?>> ObjectReference<RecipeType<T>> register(final ResourceLocation name) {
-        return registrar().register(name, recipeType(name));
+        return REGISTRAR.register(name, recipeType(name));
     }
 
     /**
